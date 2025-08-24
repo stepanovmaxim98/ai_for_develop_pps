@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Технологии искусственного интеллекта для разработки педагогических программных средств</title>
+  <!-- Bulma CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+  <!-- Optional: Bulma icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css">
+  <style>
+    /* Небольшие доработки для аккордеона на <details> */
+    details { border: 1px solid #ddd; border-radius: 12px; margin-bottom: 1rem; background: #fff; }
+    details[open] { box-shadow: 0 6px 18px rgba(10,10,10,.06); }
+    summary { cursor: pointer; list-style: none; padding: 1rem 1.25rem; display: flex; align-items: center; gap: .75rem; }
+    summary:focus { outline: none; }
+    summary::-webkit-details-marker { display: none; }
+    .chevron { transition: transform .25s ease; }
+    details[open] .chevron { transform: rotate(90deg); }
+    .details-body { padding: 1rem 1.25rem 1.25rem; border-top: 1px solid #eee; }
+    .download { display: inline-flex; align-items: center; gap: .5rem; }
+    .topic-meta { font-size: .9rem; color: #667085; }
+    .sticky-footer { position: sticky; top: 100%; }
+  </style>
+</head>
+<body class="has-background-light">
+
+  <!-- Hero / Header -->
+  <section class="hero is-primary is-small">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title is-3">Технологии искусственного интеллекта для разработки педагогических программных средств</h1>
+        <p class="subtitle is-5">Краткий курс для будущих учителей информатики: от основ ИИ до создания учебных материалов с использованием ИИ-инструментов</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About / Short Description -->
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-10">
+          <div class="box">
+            <h2 class="title is-4">О курсе</h2>
+            <p>
+              Курс знакомит с базовыми понятиями искусственного интеллекта и демонстрирует, как применять ИИ для
+              разработки педагогических программных средств: генерация контента, адаптивные задания, аналитика данных
+              обучения, этика и безопасность. Материалы каждой темы доступны для скачивания в формате PDF.
+            </p>
+            <p class="mt-3 topic-meta">
+              Формат: очно/дистанционно · 12 тем · 36 академических часов · Практико-ориентированный подход
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Topics Accordion -->
+  <section class="section pt-0">
+    <div class="container">
+      <h2 class="title is-4 mb-4">Темы курса</h2>
+
+      <!-- Шаблон одной темы: скопируйте <details> и обновите пути к PDF -->
+
+      <details>
+        <summary>
+          <span class="icon chevron"><i class="fas fa-chevron-right"></i></span>
+          <strong>Тема 1. Введение в ИИ и его роль в образовании</strong>
+        </summary>
+        <div class="details-body content">
+          <p>Понятия ИИ, ML, DL. Вектор трансформаций образования с ИИ. Обзор экосистемы инструментов.</p>
+          <a class="button is-link is-light download" href="materials/tema01-vvedenie.pdf" download>
+            <span class="icon"><i class="fas fa-file-arrow-down"></i></span>
+            <span>Скачать PDF</span>
+          </a>
+        </div>
+      </details>
+
+      <details>
+        <summary>
+          <span class="icon chevron"><i class="fas fa-chevron-right"></i></span>
+          <strong>Тема 2. Педагогические программные средства и сценарии с ИИ</strong>
+        </summary>
+        <div class="details-body content">
+          <p>Типы ППС, модели использования ИИ в учебном процессе, примеры готовых решений.</p>
+          <a class="button is-link is-light download" href="materials/tema02-pps-scenarii.pdf" download>
+            <span class="icon"><i class="fas fa-file-arrow-down"></i></span>
+            <span>Скачать PDF</span>
+          </a>
+        </div>
+      </details>
+
+      <details>
+        <summary>
+          <span class="icon chevron"><i class="fas fa-chevron-right"></i></span>
+          <strong>Тема 3. Этические и правовые аспекты ИИ в школе</strong>
+        </summary>
+        <div class="details-body content">
+          <p>Конфиденциальность, авторское право, академическая добросовестность, безопасное внедрение.</p>
+          <a class="button is-link is-light download" href="materials/tema03-etika-pravo.pdf" download>
+            <span class="icon"><i class="fas fa-file-arrow-down"></i></span>
+            <span>Скачать PDF</span>
+          </a>
+        </div>
+      </details>
+
+      <details>
+        <summary>
+          <span class="icon chevron"><i class="fas fa-chevron-right"></i></span>
+          <strong>Тема 4. Основы работы с LLM в образовании</strong>
+        </summary>
+        <div class="details-body content">
+          <p>Инженерия подсказок, шаблоны для генерации материалов, контроль качества и проверка фактов.</p>
+          <a class="button is-link is-light download" href="materials/tema04-llm-prompts.pdf" download>
+            <span class="icon"><i class="fas fa-file-arrow-down"></i></span>
+            <span>Скачать PDF</span>
+          </a>
+        </div>
+      </details>
+
+      <details>
+        <summary>
+          <span class="icon chevron"><i class="fas fa-chevron-right"></i></span>
+          <strong>Тема 5. Генерация учебного контента: тексты, тесты, кейсы</strong>
+        </summary>
+        <div class="details-body content">
+          <p>Автогенерация конспектов, тестов, ситуационных задач, критериев оценивания, банк заданий.</p>
+          <a class="button is-link is-light download" href="materials/tema05-content-generation.pdf" download>
+            <span class="icon"><i class="fas fa-file-arrow-down"></i></span>
+            <span>Скачать PDF</span>
+          </a>
+        </div>
+      </details>
+
+      <details>
+        <summary>
+          <span class="icon chevron"><i class="fas fa-chevron-right"></i></span>
+          <strong>Тема 6. Персонализация: адаптивные задания и траектории</strong>
+        </summary>
+        <div class="details-body content">
+          <p>Диагностика уровня, настройка сложности, индивидуальные планы, формирующее оценивание.</p>
+          <a class="button is-link is-light download" href="materials/tema06-personalization.pdf" download>
+            <span class="icon"><i class="fas fa-file-arrow-down"></i></span>
+            <span>Скачать PDF</span>
+          </a>
+        </div>
+      </details>
+
+      <details>
+        <summary>
+          <span class="icon chevron"><i class="fas fa-chevron-right"></i></span>
+          <strong>Тема 7. Аналитика обучения и визуализация</strong>
+        </summary>
+        <div class="details-body content">
+          <p>Сбор и анализ учебных данных, отчётность, визуализация результатов, принятие решений.</p>
+          <a class="button is-link is-light download" href="materials/tema07-learning-analytics.pdf" download>
+            <span class="icon"><i class="fas fa-file-arrow-down"></i></span>
+            <span>Скачать PDF</span>
+          </a>
+        </div>
+      </details>
+
+      <details>
+        <summary>
+          <span class="icon chevron"><i class="fas fa-chevron-right"></i></span>
+          <strong>Тема 8. Инструменты для графики и презентаций на базе ИИ</strong>
+        </summary>
+        <div class="details-body content">
+          <p>Генерация изображений, улучшение слайдов, практики авторского дизайна и лицензирования.</p>
+          <a class="button is-link is-light download" href="materials/tema08-ai-graphics.pdf" download>
+            <span class="icon"><i class="fas fa-file-arrow-down"></i></span>
+            <span>Скачать PDF</span>
+          </a>
+        </div>
+      </details>
+
+      <details>
+        <summary>
+          <span class="icon chevron"><i class="fas fa-chevron-right"></i></span>
+          <strong>Тема 9. Создание диалоговых симуляторов и ролевых игр</strong>
+        </summary>
+        <div class="details-body content">
+          <p>Проектирование сценариев, безопасность, оценивание и рефлексия. Практика на шаблонах.</p>
+          <a class="button is-link is-light download" href="materials/tema09-dialog-sims.pdf" download>
+            <span class="icon"><i class="fas fa-file-arrow-down"></i></span>
+            <span>Скачать PDF</span>
+          </a>
+        </div>
+      </details>
+
+      <details>
+        <summary>
+          <span class="icon chevron"><i class="fas fa-chevron-right"></i></span>
+          <strong>Тема 10. Интеграция ИИ в LMS и школьную инфраструктуру</strong>
+        </summary>
+        <div class="details-body content">
+          <p>Плагины и внешние сервисы, импорт/экспорт данных, принципы безопасной интеграции.</p>
+          <a class="button is-link is-light download" href="materials/tema10-aiml-lms.pdf" download>
+            <span class="icon"><i class="fas fa-file-arrow-down"></i></span>
+            <span>Скачать PDF</span>
+          </a>
+        </div>
+      </details>
+
+      <details>
+        <summary>
+          <span class="icon chevron"><i class="fas fa-chevron-right"></i></span>
+          <strong>Тема 11. Методика разработки ППС с ИИ: от идеи до пилота</strong>
+        </summary>
+        <div class="details-body content">
+          <p>Постановка задач, прототипирование, тестирование с обучающимися, обратная связь.</p>
+          <a class="button is-link is-light download" href="materials/tema11-methodology.pdf" download>
+            <span class="icon"><i class="fas fa-file-arrow-down"></i></span>
+            <span>Скачать PDF</span>
+          </a>
+        </div>
+      </details>
+
+      <details>
+        <summary>
+          <span class="icon chevron"><i class="fas fa-chevron-right"></i></span>
+          <strong>Тема 12. Итоговый проект и защита</strong>
+        </summary>
+        <div class="details-body content">
+          <p>Подготовка проектного отчёта, критерии оценивания, защита результатов и планы внедрения.</p>
+          <a class="button is-link is-light download" href="materials/tema12-final-project.pdf" download>
+            <span class="icon"><i class="fas fa-file-arrow-down"></i></span>
+            <span>Скачать PDF</span>
+          </a>
+        </div>
+      </details>
+
+      <!-- /Темы -->
+
+      <div class="notification is-info is-light mt-5">
+        <p class="mb-2"><strong>Как использовать этот шаблон</strong></p>
+        <ol class="ml-4">
+          <li>Создайте папку <code>materials/</code> рядом с этим файлом <code>index.html</code>.</li>
+          <li>Положите туда свои PDF с названиями из ссылок выше (или переименуйте ссылки под себя).</li>
+          <li>Откройте <code>index.html</code> в браузере — сайт готов и работает без JavaScript.</li>
+        </ol>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer sticky-footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Курс ИИ</strong> · Статический сайт на <a href="https://bulma.io/" target="_blank" rel="noopener">Bulma</a>.
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
